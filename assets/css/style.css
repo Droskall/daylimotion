@@ -17,10 +17,6 @@ body {
     font-family: Retina,Arial,Helvetica,sans-serif;
 }
 
-/*
-  ** Menu header
-  */
-
 header {
     background: var(--noir);
     width: 100%;
@@ -75,10 +71,6 @@ header button {
     top: 2%;
 }
 
-/*
- ** Nav bar
- */
-
 nav {
     background: #232323;
     position: sticky;
@@ -98,10 +90,6 @@ nav a {
 a:visited {
     color: var(--gris);
 }
-
-/*
- ** principal section + container 1
-*/
 
 .principal-section {
     width: 49%;
@@ -173,9 +161,6 @@ a:visited {
     color: #9D9D9D;
 }
 
-/*
- ** Second section + container 2
- */
 .second-section {
     width: 40%;
     float: right;
