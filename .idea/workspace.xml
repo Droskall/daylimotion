@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0e025b7-c454-4b36-82fa-4f0ea027e98a" name="Default Changelist" comment="commit du midi">
+    <list default="true" id="c0e025b7-c454-4b36-82fa-4f0ea027e98a" name="Default Changelist" comment="finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635492420327</updated>
       <workItem from="1635492421503" duration="386000" />
-      <workItem from="1635494840985" duration="9219000" />
+      <workItem from="1635494840985" duration="9874000" />
     </task>
     <task id="LOCAL-00001" summary="commit du midi">
       <created>1635501256418</created>
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635501256418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish">
+      <created>1635506673383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635506673383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit du midi" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit du midi" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
 </project>
