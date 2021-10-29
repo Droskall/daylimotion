@@ -3,34 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>Dailymotion Wish</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 <header>
-    <img id="logo-daily" src="logo.png" alt="logo">
+    <div id="logo-daily">
+        <img src="assets/img/logo.png" alt="logo">
+    </div>
 
     <ul>
         <li><i class="fas fa-search"></i>Recherche</li>
         <li><i class="fas fa-book"></i>Bibliothèque</li>
-        <li><i class="fas fa-user-alt"></i>Se connecter</li>
-        <li><button>S'inscrire</button></li>
+        <li><i class="fas fa-user"></i>Se connecter</li>
+        <li>
+            <button>S'inscrire</button>
+        </li>
     </ul>
-
 </header>
 
-<div class="second-bar">
-    <nav>
-        <ul class="ul2">
-            <li>A la une</li>
-            <li>Actualités</li>
-            <li>Sport</li>
-            <li>Entertainement</li>
-            <li>Musique</li>
-        </ul>
-    </nav>
-</div>
+<nav>
+    <a href="#">À la une</a>
+    <a href="#">Actualités</a>
+    <a href="#">Sport</a>
+    <a href="#">Entertainment</a>
+    <a href="#">Musique</a>
+</nav>
 
+<section class="principal-section">
+    <h1 id="first-title-section">À la une</h1>
+    <h2 id="second-title-section">Les vidéos à ne pas manquer</h2>
+
+    <div id="container1">
+
+        <div id="container-video1">
+            <img src="assets/img/miniature.png" alt="video">
+
+            <div id="container-text-video">
+                <h3>Recent</h3>
+                <p>Meta: le metaverse de Facebook inquiète autant qu'il intérese</p>
+
+                <div>
+                    <img src="assets/img/huffpost.png" alt="video">
+                    <span>LeHuffPost</span>
+                    <span>Ajoutée il y 2 heures</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="second-section">
+
+    <div class="container2">
+        <span>Plus de</span>
+        <p>Video à la une</p>
+
+        <div class="sideVideo">
+            <img src="assets/img/sideVideo1.png" alt="sideVideo">
+        </div>
+
+        <div class="container-text-video2">
+            <p id="p1-c2">Barcelone - Xavi, le bon moment ?</p>
+            <img src="assets/img/beinsport.jpg" alt="video">
+            <span>Beinsports-FR</span>
+            <p class="small-p">Ajoutée il y 10 heures</p>
+        </div>
+    </div>
+
+    <div id="container2" class="container2">
+        <div class="sideVideo">
+            <img src="assets/img/sideVideo2.png" alt="sideVideo">
+        </div>
+
+        <div class="container-text-video2">
+            <p id="p3-c2">Déballe : Paperboy x Beams x Reebok, Off-White Air Jordan</p>
+            <img src="assets/img/mouv.jpg" alt="video">
+            <span>Mouv'</span>
+            <p class="small-p">Ajoutée il y 10 heures</p>
+        </div>
+    </div>
+
+    <div id="container3" class="container2">
+        <div class="sideVideo">
+            <img src="assets/img/sideVideo3.png" alt="sideVideo">
+        </div>
+
+        <div class="container-text-video2">
+            <p id="p2-c2">Pourquoi (et comment) le Mali est-il devenu un casse-tête</p>
+            <img src="assets/img/erope.jpg" alt="video">
+            <span>Europe 1</span>
+            <p class="small-p">Ajoutée il y 10 heures</p>
+        </div>
+    </div>
+</section>
 
 <script src="https://kit.fontawesome.com/018d8912e1.js" crossorigin="anonymous"></script>
 </body>
